@@ -30,3 +30,52 @@ console.log(`\nQ6: Converting Sec into Min/Sec \n${_seconds} Seconds, Equal to $
 const totalMarks: number =1200;
 let obtainedMarks: number = 1020;
 console.log(`\nQ7: Calculating the percentage \nObtained Marks = ${obtainedMarks}, Total Marks = ${totalMarks}\nPercentage = ${(obtainedMarks/totalMarks)*100}`)
+
+//increment operator
+// Q1:
+let a: number = 2;
+let b = ++a * 2; 
+console.log(`\nOperators \nQ1: \nb = (1+2) x 2 \n=> 3 x 2 \n=> ${b} `);
+ 
+// Q2
+let c = 5;
+let d = c-- + 2;
+console.log(`\nQ2: \nd = 5+2 \n=> ${d}`)
+
+//  - Q3 
+let e = 3;
+let f = ++e + e++ + ++e;
+console.log(`\nQ3: (3+1) + (4) + ((4+1)+1) \n=> 4 + 4 + 6 \n=> ${f}`)
+
+//  Q4 
+let g = 2;
+let h = ++g * g++ * --g;
+console.log(`\nQ4: h = (1+2) x 3 x (4-1)\n=> 3 x 3 x 3\n=> ${h}`)
+
+//  Q5
+let i = 3;
+let j = 5;
+let result = ++i + j-- - i++ + --j;
+console.log(`\nQ5: (3+1) + 5 - 4 + (4-1) \n=> 4 + 5 - 4 + 3 \n=> ${result}`)
+
+// Q6
+let m = 2;
+let n = 4;
+let p = m++ + ++n - --m + n--;
+console.log(`\nQ6: 2 + (1+4) - (1-3) + 5 \n=> 2 + 5 - 2 + 5 \n=> ${p}`)
+
+//  - Q7
+let q = 5;
+let r = 3;
+let s = 2;
+let t = 7;
+let results = ++q * (r-- + s) / --t;
+console.log(`\nQ7: (5+1) x (3+2) / (7-1) \n=> 6 x 5 / 6 \n=> 6 x 0.834 \n=> ${results}`)
+
+//  - Q8
+let u = 2;
+let v = 3;
+let w = 4;
+let x = u++ * (--v + u) / (w-- - v);
+
+console.log(`\nQ8: 2 x ((3-1) + 3) / (4 - 2) \n=> 2 x (2+3) / 2 \n=> 2 x 5 / 2 \n=> 2 x 2.5 \n=> ${x}`)
