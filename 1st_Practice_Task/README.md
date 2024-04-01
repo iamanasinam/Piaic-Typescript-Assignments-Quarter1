@@ -1,4 +1,4 @@
-# in the first task following questions has been assigned to me
+# in the first task following questions has been assigned to me.
 
 Assignment for this week is:
  - Calculate your age based on the current year and your birth year.
