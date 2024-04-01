@@ -1,10 +1,10 @@
-# in the second task following questions has been assigned to me
+# In the second task following questions have been assigned to me
 
-Calculate price for the bill and include the tax in its calculation.
+Calculate the price for the bill and include the tax in its calculation.
 
-Tax per 100 units 5% of total price.
-Tax per 200 units 10% of total price.
-Tax per 300 units 20% of total price.
-Tax per 400 units 35% of total price.
-Tax per 500 units 50% of total price.
-Tax per 500+ units 100% of total price.
+The tax per 100 units is 5% of the total price.
+The tax per 200 units is 10% of the total price.
+The tax per 300 units is 20% of the total price.
+The tax per 400 units is 35% of the total price.
+The tax per 500 units is 50% of the total price.
+Tax per 500+ units 100% of the total price.
