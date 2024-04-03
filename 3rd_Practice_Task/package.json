@@ -1,0 +1,19 @@
+{
+  "name": "3rd_practice_task",
+  "version": "1.0.0",
+  "description": "this is the 3rd practice task for the piaic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamansiinam/piaic-typescript.git"
+  },
+  "author": "Anas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamansiinam/piaic-typescript/issues"
+  },
+  "homepage": "https://github.com/iamansiinam/piaic-typescript#readme"
+}
