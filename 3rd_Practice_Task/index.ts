@@ -34,15 +34,31 @@
 //   ---If yes, print "You are eligible to vote."
 //   ---If no, print "Please obtain a valid ID to vote."
 
-let age = 17;
-let nationality = "Pakistani";
+// let age = 17;
+// let nationality = "Pakistani";
 
-if (age >= 18) {
-    if (nationality == "Pakistani") {
-        console.log(`\nYou are eligible to vote.`);
-    } else {
-        console.log(`\nPlease obtain a valid ID to vote.`);
-    }
+// if (age >= 18) {
+//     if (nationality == "Pakistani") {
+//         console.log(`\nYou are eligible to vote.`);
+//     } else {
+//         console.log(`\nPlease obtain a valid ID to vote.`);
+//     }
+// } else {
+//     console.log(`\n\nYou are In-eligible to vote.`);
+// }
+
+// - Write a program that takes the age of a person as input and determines whether they are a child (0-12 years), teenager (13-19 years), adult (20-59 years), or senior citizen (60 years and above)
+
+let age = 20;
+
+if (age >= 0 && age <= 12) {
+    console.log(`\nChild: ${age}`);
+} else if (age >= 13 && age <= 19) {
+    console.log(`\nTeenager: ${age}`);
+} else if (age >= 20 && age <= 59) {
+    console.log(`\nAdult: ${age}`);
+} else if (age >= 60) {
+    console.log(`\nSenior Citizen: ${age}`);
 } else {
-    console.log(`\n\nYou are In-eligible to vote.`);
+    console.log(`\n\nInvalid Age: ${age}`);
 }
