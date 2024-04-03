@@ -1,10 +1,14 @@
-# In the second task following questions have been assigned to me
+# In the third task following questions have been assigned to me
 
-Calculate the price for the bill and include the tax in its calculation.
-
-The tax per 100 units is 5% of the total price.
-The tax per 200 units is 10% of the total price.
-The tax per 300 units is 20% of the total price.
-The tax per 400 units is 35% of the total price.
-The tax per 500 units is 50% of the total price.
-Tax per 500+ units 100% of the total price.
+Using conditional statements, check if the number is:
+ - Even or Odd.
+ - Positive, Negative, or Zero.
+ - Whether it is divisible by both 2 and 3 or anyone of them or not divisible by both check all the cases and print statement for each case.
+ - Take the user age.
+  -- If the age is 18 or above:
+  -- Ask if they have a nationality of "Pakistani".
+    ---If yes, print "You are eligible to vote."
+    ---If no, print "Please obtain a valid ID to vote."
+ - Write a program that takes the age of a person as input and determines whether they are a child (0-12 years), teenager (13-19 years), adult (20-59 years), or senior citizen (60 years and above)
+ - Enter a month (as a number between 1 and 12). Print the number of days in that month. Assume a non-leap year.
+ - Check if a year is a leap year or not.
