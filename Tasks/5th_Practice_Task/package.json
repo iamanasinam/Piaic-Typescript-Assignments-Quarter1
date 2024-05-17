@@ -1,0 +1,11 @@
+{
+  "name": "5th_practice_task",
+  "version": "1.0.0",
+  "description": "this is the 5th task regarding the use of array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anas",
+  "license": "ISC"
+}
