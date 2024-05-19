@@ -3,8 +3,9 @@
 // Return the modified array.
 
 export default function addingValue (arrayy: number[], index: number, value: number){
-    arrayy.splice(index, 0, value);
-    return arrayy;
+    let funArr= arrayy.splice(0)
+    funArr.splice(index, 0, value);
+    return funArr;
 }
 
 let myArray = [1, 2, 3, 4, 5]
